@@ -145,4 +145,10 @@
             </plugin>
         </plugins>
     </reporting>
+    <distributionManagement>
+        <site>
+            <id>shrek</id>
+            <url>scp://sayinarda11@shrek.unideb.hu:2222/home/sayinarda11/public_html/${project.artifactId}</url>
+        </site>
+    </distributionManagement>
 </project>
